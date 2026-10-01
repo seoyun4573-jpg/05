@@ -8,12 +8,9 @@ int main(void)
     scanf("%d", &num);
 
     if (num > 0) 
-        printf("num is a positive integer.\n"); 
-    else if (num < 0)
-        printf("num is a negative integer.\n");
+        printf("absolute value is: %d\n", num); 
     else
-        printf("num is zero.\n");
-    
+        printf("absolute value is: %d\n", -num);
 
     return 0;
 }
